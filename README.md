@@ -53,7 +53,7 @@ that use `aspect_rules_ts`. This is because any invocation of rules from there
 flags in the `.bazelrc` of `module_a` and `module_b`. Builds without these
 flags will fail, including in dependencies.
 
-```
+```console
 cd module_c
 bazel build //:module_a_content_tar
 ```
